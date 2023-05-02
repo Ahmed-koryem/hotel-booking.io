@@ -1,0 +1,123 @@
+/* Root */
+:root{
+   --textcolor1: #6E5DCF;
+   --textcolor2: #243b67;
+   --hovercolor:#C27DFC;
+}
+/* ---------------------------------------------Start navbar---------------------------------------- */
+.contain-nav{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.contain-nav a{
+    color: #fff ;    
+}
+.contain-nav a:hover{
+    transition: 10ms;
+    color: var(--textcolor1);
+}
+/* ---------drop menu-------- */
+.Rooms:hover > .dropdown-menu {
+    display: block;
+    
+}
+.Rooms-menu:hover > ul{
+    display: block;
+    left: 60px;
+    
+}
+.contain-nav .dropdown-menu  a:hover{
+    background-color: black;
+    font-weight: bold;
+}
+/* ------------Section2------------ */
+.section2 span{
+    color: var(--textcolor1);
+} 
+.section2 h1{
+    color: var(--textcolor2);
+} 
+/* ------------Section3------------ */
+.section3 h2{
+    color: var(--textcolor2);
+}
+/* Rooms */
+.section3 .card{ 
+    cursor: pointer;
+    
+}
+.section3 .card h5{ 
+    color: var(--textcolor2);
+    
+}
+.section3 .card span{
+    color: var(--textcolor1);
+}
+.section3 .card:hover{ 
+    background-color: var(--hovercolor) ;
+}
+/* ----------------------start about us------------------------------  */
+.aboutUs h2{
+    color: var(--textcolor2);    
+}
+.aboutUs p{
+    color: var(--textcolor1);
+}
+/* ----------------------End about us---------------------------------- */
+/* ----------------------start contact us----------------------- */
+.registration{
+    background: url(images/22.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+/* start edit form  */
+.registration .bg-transparent::placeholder{
+    color: var(--textcolor1);
+    font-weight: 500;
+
+}
+.registration .bg-transparent:focus{
+    outline: none;
+}
+.registration button{
+    background-color: var(--textcolor1);
+    color: white;
+    width: 119px;
+    height: 40px;
+    border: var(--textcolor2);
+    border-radius: 5px;
+}
+.registration button:hover{
+    background-color: var(--hovercolor);
+    color: white;
+}
+.registration .error{  /*when existing error in input */
+    color: red;
+
+}
+/* ------------------------------------start contact page----------------------------- */
+.contact-title span , .contact-title h1{
+    color: var(--textcolor2);
+}
+.form-continfo , .form-continfo  h3{
+    color: var(--textcolor2);
+
+}
+.form-continfo p , .form-continfo a{
+    color: var(--textcolor1);
+    text-decoration: none;
+}
+.form-continfo .btn{
+    background-color: var(--textcolor1);
+    color: white;
+    border: var(--textcolor2);
+}
+.form-continfo .btn:hover{
+    background-color: var(--hovercolor);
+}
+
+
